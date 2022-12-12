@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "lk.ac.mrt.cse.dbs.simpleexpensemanager.app-mergeDebugResources-9:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Gradle\\gradle-7.6\\caches\\transforms-3\\88116f6d4754c53c17425ae8e5938903\\transformed\\design-26.1.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "C:\\Gradle\\gradle-7.6\\caches\\transforms-3\\5df28af41dee9c92e43fc0a3c28fbe59\\transformed\\appcompat-v7-26.1.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

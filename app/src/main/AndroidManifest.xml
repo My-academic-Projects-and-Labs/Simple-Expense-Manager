@@ -16,7 +16,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="lk.ac.mrt.cse.dbs.simpleexpensemanager">
+>
 
     <application
         android:allowBackup="true"

@@ -1,0 +1,168 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+MERGED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8f83092a894eb48d3f2af084b24cf7bb\transformed\animated-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\fe904133eb2375c3d1ae5c03b65f68f1\transformed\support-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\c1ca15b3a6f00886097eaf05f731741b\transformed\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\32f7158f8bfa0de74e7f7f1cb7a1f2ca\transformed\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\83322f354d3cb464015edef8d82705ff\transformed\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\96488f4bf7176ac3cc809fdb6b86016a\transformed\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+	package
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:1-39:12
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:18:11-69
+application
+ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:21:5-37:19
+MERGED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8f83092a894eb48d3f2af084b24cf7bb\transformed\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8f83092a894eb48d3f2af084b24cf7bb\transformed\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\fe904133eb2375c3d1ae5c03b65f68f1\transformed\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\fe904133eb2375c3d1ae5c03b65f68f1\transformed\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\c1ca15b3a6f00886097eaf05f731741b\transformed\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\c1ca15b3a6f00886097eaf05f731741b\transformed\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\32f7158f8bfa0de74e7f7f1cb7a1f2ca\transformed\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\32f7158f8bfa0de74e7f7f1cb7a1f2ca\transformed\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\83322f354d3cb464015edef8d82705ff\transformed\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\83322f354d3cb464015edef8d82705ff\transformed\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\96488f4bf7176ac3cc809fdb6b86016a\transformed\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\96488f4bf7176ac3cc809fdb6b86016a\transformed\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:26:9-40
+activity#lk.ac.mrt.cse.dbs.simpleexpensemanager.ui.MainActivity
+ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:27:9-36:20
+	android:label
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:29:13-45
+	android:theme
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:28:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8f83092a894eb48d3f2af084b24cf7bb\transformed\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8f83092a894eb48d3f2af084b24cf7bb\transformed\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\fe904133eb2375c3d1ae5c03b65f68f1\transformed\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\fe904133eb2375c3d1ae5c03b65f68f1\transformed\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\c1ca15b3a6f00886097eaf05f731741b\transformed\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\c1ca15b3a6f00886097eaf05f731741b\transformed\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\32f7158f8bfa0de74e7f7f1cb7a1f2ca\transformed\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\32f7158f8bfa0de74e7f7f1cb7a1f2ca\transformed\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\83322f354d3cb464015edef8d82705ff\transformed\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\83322f354d3cb464015edef8d82705ff\transformed\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\96488f4bf7176ac3cc809fdb6b86016a\transformed\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\96488f4bf7176ac3cc809fdb6b86016a\transformed\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8f83092a894eb48d3f2af084b24cf7bb\transformed\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8f83092a894eb48d3f2af084b24cf7bb\transformed\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\fe904133eb2375c3d1ae5c03b65f68f1\transformed\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\fe904133eb2375c3d1ae5c03b65f68f1\transformed\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\c1ca15b3a6f00886097eaf05f731741b\transformed\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\c1ca15b3a6f00886097eaf05f731741b\transformed\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\32f7158f8bfa0de74e7f7f1cb7a1f2ca\transformed\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\32f7158f8bfa0de74e7f7f1cb7a1f2ca\transformed\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\83322f354d3cb464015edef8d82705ff\transformed\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\83322f354d3cb464015edef8d82705ff\transformed\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\96488f4bf7176ac3cc809fdb6b86016a\transformed\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\96488f4bf7176ac3cc809fdb6b86016a\transformed\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Gradle\gradle-7.6\caches\transforms-3\37517aa92f9b595f118ab65dfed8093c\transformed\runtime-1.0.0\AndroidManifest.xml:26:13-58

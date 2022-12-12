@@ -1,0 +1,14 @@
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-support-media-compat-26.1.0-0 C:\Gradle\gradle-7.6\caches\transforms-3\0bae3bc25ea80506090e3832d4c9b2cb\transformed\support-media-compat-26.1.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-recyclerview-v7-26.1.0-1 C:\Gradle\gradle-7.6\caches\transforms-3\2eeca624a15b5f522d69640c3d83d6e9\transformed\recyclerview-v7-26.1.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-appcompat-v7-26.1.0-2 C:\Gradle\gradle-7.6\caches\transforms-3\5df28af41dee9c92e43fc0a3c28fbe59\transformed\appcompat-v7-26.1.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-design-26.1.0-3 C:\Gradle\gradle-7.6\caches\transforms-3\88116f6d4754c53c17425ae8e5938903\transformed\design-26.1.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-support-compat-26.1.0-4 C:\Gradle\gradle-7.6\caches\transforms-3\8eaafac9605d3700c790b360e4e630b3\transformed\support-compat-26.1.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-transition-26.1.0-5 C:\Gradle\gradle-7.6\caches\transforms-3\ee3c808cd3f479b78db3dab66d2175d1\transformed\transition-26.1.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-pngs-6 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\build\generated\res\pngs\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-resValues-7 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\build\generated\res\resValues\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-rs-8 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\build\generated\res\rs\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-mergeDebugResources-9 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-mergeDebugResources-10 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-merged_res-11 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\build\intermediates\merged_res\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-debug-12 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\debug\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-main-13 C:\Users\damik\OneDrive\Documents\SimpleExpenseManager\app\src\main\res
