@@ -1,7 +1,7 @@
 ### This is a CS3043 - Database Systems assignment from Semester 3.
 #### I finished the project and tested it on an Android device running version 8.0.0.
 #### If you want the original project without my modifications, please visit this [link](https://github.com/GayashanNA/SimpleExpenseManager.git).
-#### I've included a video showing how the app worked on my device. You can watch it by going to this [link](drive.google.com/file/d/1havtlPhrr9jifTQFI2nyyMSb1WDJB-Np/view?usp=share link)
+#### I've included a video showing how the app worked on my device. You can watch it by going to this link : drive.google.com/file/d/1havtlPhrr9jifTQFI2nyyMSb1WDJB-Np/view?usp=share link.
 What I did to the original project, 
 Using a SQLite embedded database, I converted the in-memory functionality into a persistent memory database. I followed the steps below.
 1. Converted the InMemoryDemoExpenseManager class to the PersistentExpenseManager class.
