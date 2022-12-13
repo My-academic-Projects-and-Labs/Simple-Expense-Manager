@@ -1,3 +1,19 @@
+### This is an assignment in Semester 3 CS3043 - Database Systems
+#### I've completed the project and tested it on a mobile device, Android version 8.0.0
+#### If you want to get the original project without my workings please go to this [link]: https://github.com/GayashanNA/SimpleExpenseManager.git
+#### I've uploaded an video how the app worked on my device. You can watch it via this [link] : https://drive.google.com/file/d/1havtlPhrr9jifTQFI2nyyMSb1WDJB-Np/view?usp=share_link
+<u>What I've done to the initial project</u>
+Changed the in memory functionality into persistent memory database using SQLite embeded database. I went through following steps.
+1. Replaced InMemoryDemoExpenseManager class to the PersistentExpenseManager
+2. Replaced InMemoryAccountDAO.java into AccountDAOImpl.java
+3. Replaced InMemoryTransactionDAO.java into TransactionDAOImpl.java
+4. Updated MainActivity.java
+5. Added DBHelper.java to get a SQLite connection
+
+Hope this is very clear. If there any issue please put it into issues in this repository
+Thank you :)
+<hr>
+
 # SimpleExpenseManager
 This is an android based basic expense manager application which will be used as a lab assignment for CS3042 - Database Systems course module.
 
