@@ -26,9 +26,11 @@ public class AccountDAOImpl implements AccountDAO {
     public List<String> getAccountNumbersList() {
         ArrayList<String> list = new ArrayList<>();
         Cursor data = getData();
-        data.moveToFirst();
-        while (data.moveToNext()) {
-            list.add(data.getString(1));
+        if (data != null && data.getCount() > 0) {
+            data.moveToFirst();
+            do {
+                list.add(data.getString(0));
+            } while (data.moveToNext());
         }
         return list;
     }
@@ -38,14 +40,14 @@ public class AccountDAOImpl implements AccountDAO {
         ArrayList<Account> list = new ArrayList<>();
         Cursor data = getData();
         data.moveToFirst();
-        while (data.moveToNext()) {
+        do {
             Account account = new Account(
+                    data.getString(0),
                     data.getString(1),
                     data.getString(2),
-                    data.getString(3),
-                    data.getDouble(4));
+                    data.getDouble(3));
             list.add(account);
-        }
+        } while (data.moveToNext());
         return list;
     }
 
@@ -53,16 +55,13 @@ public class AccountDAOImpl implements AccountDAO {
     public Account getAccount(String accountNo) throws InvalidAccountException {
         SQLiteDatabase DB = dbHelper.getWritableDatabase();
         Cursor data = DB.rawQuery("Select * from Account where accountNo=?", new String[]{accountNo}, null);
-        if (!data.isNull(1)) {
+        if (data != null && data.getCount() > 0) {
             data.moveToFirst();
-            Account account = null;
-            while (data.moveToNext()) {
-                account = new Account(
-                        data.getString(1),
-                        data.getString(2),
-                        data.getString(3),
-                        data.getDouble(4));
-            }
+            Account account = new Account(
+                    data.getString(0),
+                    data.getString(1),
+                    data.getString(2),
+                    data.getDouble(3));
             return account;
         }
         throw new InvalidAccountException("Account " + accountNo + " is invalid.");
@@ -92,12 +91,13 @@ public class AccountDAOImpl implements AccountDAO {
     @Override
     public void updateBalance(String accountNo, ExpenseType expenseType, double amount) throws InvalidAccountException {
         SQLiteDatabase DB = dbHelper.getWritableDatabase();
-        Cursor data = DB.rawQuery("Select * from Account where accountNo=?", new String[]{accountNo}, null);
-        if (!data.isNull(0)) {
+        Cursor data = DB.rawQuery("Select * from Account where TRIM(accountNo)= '" + accountNo.trim() + "'", null);
+        if (data.getCount() > 0) {
+            data.moveToFirst();
             ContentValues values = new ContentValues();
-            values.put("bankName", data.getString(2));
-            values.put("accountHolderName", data.getString(3));
-            double value = data.getDouble(4);
+            values.put("bankName", data.getString(1));
+            values.put("accountHolderName", data.getString(2));
+            double value = data.getDouble(3);
             switch (expenseType) {
                 case EXPENSE:
                     value -= amount;
@@ -106,13 +106,15 @@ public class AccountDAOImpl implements AccountDAO {
                     value += amount;
                     break;
             }
-            values.put("accountHolderName", value);
+            values.put("balance", value);
             long result = DB.update("Account", values, "accountNo=?", new String[]{accountNo});
-            if(result == -1){
+            DB.close();
+            if (result == -1) {
                 throw new InvalidAccountException("Error occurred during the account update!");
             }
+        }else {
+            throw new InvalidAccountException("Account " + accountNo + " is invalid.");
         }
-        throw new InvalidAccountException("Account " + accountNo + " is invalid.");
 
     }
 

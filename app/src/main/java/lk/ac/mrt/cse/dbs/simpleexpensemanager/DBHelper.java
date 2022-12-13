@@ -1,8 +1,11 @@
 package lk.ac.mrt.cse.dbs.simpleexpensemanager;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 
 public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(Context context) {
@@ -23,8 +26,12 @@ public class DBHelper extends SQLiteOpenHelper {
                 "accountNo TEXT, " +
                 "expenseType TEXT, " +
                 "amount REAL)");
-        DB.execSQL("Insert into Account(accountNo,bankName,accountHolderName,balance) " +
-                "values('12345A','Yoda Bank','Anakin Skywalker',10000.0)");
+        ContentValues values = new ContentValues();
+        values.put("1","12345A");
+        values.put("2","Yoda Bank");
+        values.put("3","Anakin Skywalker");
+        values.put("4",10000.0);
+        DB.insert("Account",null,values);
     }
 
     @Override

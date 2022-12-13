@@ -1,4 +1,4 @@
-#Mon Dec 12 20:33:09 IST 2022
+#Tue Dec 13 09:08:39 IST 2022
 base.0=C\:\\Users\\damik\\OneDrive\\Documents\\SimpleExpenseManager\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

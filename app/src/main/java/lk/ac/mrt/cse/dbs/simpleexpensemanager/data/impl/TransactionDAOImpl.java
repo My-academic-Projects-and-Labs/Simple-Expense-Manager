@@ -12,7 +12,6 @@ import java.util.List;
 
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.DBHelper;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
-import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
@@ -38,17 +37,19 @@ public class TransactionDAOImpl implements TransactionDAO {
     public List<Transaction> getAllTransactionLogs() {
         ArrayList<Transaction> list = new ArrayList<>();
         Cursor data = getData();
-        data.moveToFirst();
-        while (data.moveToNext()) {
-            try {
-                list.add(new Transaction(
-                        new SimpleDateFormat("dd/MM/yyyy").parse(data.getString(2)),
-                        data.getString(3),
-                        ExpenseType.valueOf(data.getString(4)),
-                        data.getDouble(5)));
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
+        if (data != null && data.getCount() > 0) {
+            data.moveToFirst();
+            do {
+                try {
+                    list.add(new Transaction(
+                            new SimpleDateFormat("EEE MMM dd HH:mm:ss zzzz yyyy").parse(data.getString(1)),
+                            data.getString(2),
+                            ExpenseType.valueOf(data.getString(3)),
+                            data.getDouble(4)));
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+            } while (data.moveToNext());
         }
         return list;
     }
