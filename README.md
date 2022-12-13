@@ -1,16 +1,16 @@
-### This is an assignment in Semester 3 CS3043 - Database Systems
-#### I've completed the project and tested it on a mobile device, Android version 8.0.0
-#### If you want to get the original project without my workings please go to this [link]: https://github.com/GayashanNA/SimpleExpenseManager.git
-#### I've uploaded an video how the app worked on my device. You can watch it via this [link] : https://drive.google.com/file/d/1havtlPhrr9jifTQFI2nyyMSb1WDJB-Np/view?usp=share_link
-<u>What I've done to the initial project</u>
-Changed the in memory functionality into persistent memory database using SQLite embeded database. I went through following steps.
-1. Replaced InMemoryDemoExpenseManager class to the PersistentExpenseManager
-2. Replaced InMemoryAccountDAO.java into AccountDAOImpl.java
-3. Replaced InMemoryTransactionDAO.java into TransactionDAOImpl.java
-4. Updated MainActivity.java
-5. Added DBHelper.java to get a SQLite connection
+### This is a CS3043 - Database Systems assignment from Semester 3.
+#### I finished the project and tested it on an Android device running version 8.0.0.
+#### If you want the original project without my modifications, please visit this [link](https://github.com/GayashanNA/SimpleExpenseManager.git).
+#### I've included a video showing how the app worked on my device. You can watch it by [going to](drive.google.com/file/d/1havtlPhrr9jifTQFI2nyyMSb1WDJB-Np/view?usp=share link)
+What I did to the original project, 
+Using a SQLite embedded database, I converted the in-memory functionality into a persistent memory database. I followed the steps below.
+1. Converted the InMemoryDemoExpenseManager class to the PersistentExpenseManager class.
+2. AccountDAOImpl.java was used in place of InMemoryAccountDAO.java.
+3. Changed the format of InMemoryTransactionDAO.java to TransactionDAOImpl.java.
+4. MainActivity.java has been updated.
+5. Included DBHelper.java to obtain a SQLite connection.
 
-Hope this is very clear. If there any issue please put it into issues in this repository
+I hope this is clear. Please state any problems in the issues section.
 Thank you :)
 <hr>
 
